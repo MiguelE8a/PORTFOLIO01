@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+html {
+  width: 100vw;
+  height: 100%;
+}
+
+body {
+  width: 100vw;
+  height: 100%;
+  position: relative;
+}
+
+.main01 {
+  width: 30%;
+  height: 100%;
+  position: fixed;
+}
+
+.header {
+  background-image: url(/images/header01.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+  border: 0.1rem solid #ccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 9.6rem 0 0;
+}
+.header .container-header {
+  width: 100%;
+  border: 0.1rem solid #ccc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header .avatar {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+  margin-bottom: 2rem;
+}
+.header .descriptionHeader {
+  margin-right: 1.5rem;
+  font-size: 2.6rem;
+  text-align: end;
+  line-height: 3.7rem;
+  font-family: "Bebas Neue", cursive;
+  color: #fff;
+}
+
+.main02 {
+  width: 70%;
+  padding: 9.6rem 4.8rem 4.8rem;
+  background: linear-gradient(0deg, #cccccc 0%, white 100%);
+  position: absolute;
+  left: 38rem;
+}
+.main02 .one {
+  border-bottom: 0.1rem solid #ccc;
+}
+.main02 .one .headerOne p {
+  font-size: 3.6rem;
+  font-family: "Bebas Neue", cursive;
+  margin-bottom: 3.2rem;
+}
+.main02 .one .descriptionOne {
+  font-size: 1.6rem;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 3.2rem;
+}
+.main02 .two {
+  padding-top: 4rem;
+}
+.main02 .two .titleSectionTwo {
+  font-size: 2.6rem;
+  font-family: "Bebas Neue", cursive;
+  margin-bottom: 3.2rem;
+}
+.main02 .two .row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.main02 .two .row .article-wrap {
+  width: 37.8rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 0 1rem #ccc;
+  padding-bottom: 1.2rem;
+  background: #fff;
+  margin: 0 0 2rem 2rem;
+}
+.main02 .two .row .article-wrap .job-image {
+  border-radius: 2rem 2rem 0 0;
+  width: 100%;
+  height: 22.1rem;
+  margin-bottom: 0.5rem;
+}
+.main02 .two .row .article-wrap p:nth-child(2) {
+  width: 97%;
+  font-size: 1.6rem;
+  font-family: "Roboto", sans-serif;
+  margin: 0 0 0.8rem 0.5rem;
+  padding: 0 0.5rem 0.2rem 0;
+  font-weight: 700;
+  border-bottom: 0.1rem solid #ccc;
+  padding-right: 0.5rem;
+}
+.main02 .two .row .article-wrap p:nth-child(3) {
+  font-size: 1.28rem;
+  font-family: "Roboto", sans-serif;
+  margin: 0 0 0.8rem 0.5rem;
+}
+.main02 .two .row .article-wrap .goToGitHub {
+  width: 20rem;
+  font-size: 1.6rem;
+  margin: 0 auto;
+  border: 0.2rem solid #ccc;
+  border-radius: 0.8rem;
+  padding: 0.5rem 2rem;
+  text-decoration: none;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  color: black;
+  display: block;
+}
+.main02 .two .row .article-wrap .goToGitHub:hover {
+  box-shadow: 0 0 1rem #ccc;
+  font-weight: 600;
+  transition: all 0.1s;
+  background: linear-gradient(0deg, #cccccc 51%, white 90%);
+}
+
+/*# sourceMappingURL=styles.css.map */
