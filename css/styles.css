@@ -83,13 +83,15 @@ body {
   font-size: 1.6rem;
   font-family: "Roboto", sans-serif;
   margin-bottom: 3.2rem;
+  line-height: 2.2rem;
+  text-align: justify;
 }
 .main02 .two {
   border-bottom: 0.1rem solid #ccc;
   padding: 3rem 0;
 }
 .main02 .two .titleSectionTwo {
-  font-size: 2.6rem;
+  font-size: 3.6rem;
   font-family: "Bebas Neue", cursive;
   margin-bottom: 3.2rem;
 }
@@ -107,7 +109,7 @@ body {
   margin: 0 0 2rem 2rem;
 }
 .main02 .two .row .article-wrap .job-image {
-  border-radius: 2rem 2rem 0 0;
+  border-radius: 1.5rem 1.5rem 0 0;
   width: 100%;
   height: 22.1rem;
   margin-bottom: 0.5rem;
@@ -125,7 +127,10 @@ body {
 .main02 .two .row .article-wrap p:nth-child(3) {
   font-size: 1.28rem;
   font-family: "Roboto", sans-serif;
-  margin: 0 0 0.8rem 0.5rem;
+  margin: 0 0.5rem 0.8rem 0.5rem;
+  text-align: justify;
+  line-height: 1.5rem;
+  color: #343434;
 }
 .main02 .two .row .article-wrap .goToGitHub {
   width: 20rem;
@@ -151,7 +156,7 @@ body {
   padding: 3rem 0;
 }
 .main02 .three .titleSectionThree {
-  font-size: 2.6rem;
+  font-size: 3.6rem;
   font-family: "Bebas Neue", cursive;
   margin-bottom: 3.2rem;
 }
