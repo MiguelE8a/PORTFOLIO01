@@ -85,7 +85,8 @@ body {
   margin-bottom: 3.2rem;
 }
 .main02 .two {
-  padding-top: 4rem;
+  border-bottom: 0.1rem solid #ccc;
+  padding: 3rem 0;
 }
 .main02 .two .titleSectionTwo {
   font-size: 2.6rem;
@@ -144,6 +145,40 @@ body {
   font-weight: 600;
   transition: all 0.1s;
   background: linear-gradient(0deg, #cccccc 51%, white 90%);
+}
+.main02 .three {
+  border-bottom: 0.1rem solid #ccc;
+  padding: 3rem 0;
+}
+.main02 .three .titleSectionThree {
+  font-size: 2.6rem;
+  font-family: "Bebas Neue", cursive;
+  margin-bottom: 3.2rem;
+}
+.main02 .three .containerSkill {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.main02 .three .containerSkill .containerArticle {
+  width: 37.8rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 0 1rem #ccc;
+  padding: 1.2rem;
+  background: #fff;
+  margin: 0 0 2rem 2rem;
+  display: flex;
+  align-items: center;
+}
+.main02 .three .containerSkill .containerArticle p {
+  width: 97%;
+  font-size: 1.6rem;
+  font-family: "Roboto", sans-serif;
+  margin: 0 0 0.8rem 0.5rem;
+  padding: 0 0.5rem 0.2rem 0;
+  font-weight: 700;
+  border-bottom: 0.1rem solid #ccc;
+  padding-right: 0.5rem;
 }
 
 .footer {
