@@ -8,7 +8,12 @@
 html {
   width: 100vw;
   height: 100%;
-  overflow: hidden;
+}
+@media (max-width: 768px) {
+  html {
+    overflow-x: unset;
+    overflow-y: scroll;
+  }
 }
 
 body {
@@ -16,12 +21,33 @@ body {
   justify-content: space-between;
   width: 100vw;
   height: 100%;
-  position: relative;
+}
+@media (max-width: 768px) {
+  body {
+    flex-direction: column;
+    justify-content: flex-start;
+    height: unset;
+  }
 }
 
 .main01 {
   width: 30%;
   height: 100%;
+}
+@media (max-width: 768px) {
+  .main01 {
+    width: 100vw;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .main01 {
+    width: 45%;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1247px) {
+  .main01 {
+    width: 40%;
+  }
 }
 
 .header {
@@ -31,11 +57,16 @@ body {
   background-attachment: fixed;
   width: 100%;
   height: 100%;
-  border: 0.1rem solid #ccc;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding: 9.6rem 0 0;
+}
+@media (max-width: 768px) {
+  .header {
+    height: 70rem;
+    padding-top: 4rem;
+  }
 }
 .header .container-header {
   width: 100%;
@@ -60,6 +91,19 @@ body {
   left: 2.5rem;
   text-shadow: 0 0 2rem #000;
 }
+@media (max-width: 768px) {
+  .header .descriptionHeader {
+    text-align: center;
+    margin-right: 0;
+    position: unset;
+    line-height: unset;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .header .descriptionHeader {
+    margin-right: 4rem;
+  }
+}
 .header .descriptionHeader span {
   font-size: 4rem;
 }
@@ -71,6 +115,18 @@ body {
   overflow-x: hidden;
   overflow-y: visible;
 }
+@media (max-width: 768px) {
+  .main02 {
+    width: 100vw;
+    height: 100%;
+    padding: 3.8rem 1.8rem 3.8rem;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1247px) {
+  .main02 {
+    width: 60%;
+  }
+}
 .main02 .one {
   border-bottom: 0.1rem solid #ccc;
 }
@@ -78,6 +134,7 @@ body {
   font-size: 3.6rem;
   font-family: "Bebas Neue", cursive;
   margin-bottom: 3.2rem;
+  text-align: center;
 }
 .main02 .one .descriptionOne {
   font-size: 1.6rem;
@@ -94,11 +151,22 @@ body {
   font-size: 3.6rem;
   font-family: "Bebas Neue", cursive;
   margin-bottom: 3.2rem;
+  text-align: center;
 }
 .main02 .two .row {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
+}
+@media (max-width: 768px) {
+  .main02 .two .row {
+    justify-content: center;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1247px) {
+  .main02 .two .row {
+    justify-content: center;
+  }
 }
 .main02 .two .row .article-wrap {
   width: 37.8rem;
@@ -107,6 +175,14 @@ body {
   padding-bottom: 1.2rem;
   background: #fff;
   margin: 0 0 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+@media (min-width: 300px) and (max-width: 1024px) {
+  .main02 .two .row .article-wrap {
+    margin: 0 auto 1.8rem;
+  }
 }
 .main02 .two .row .article-wrap .job-image {
   border-radius: 1.5rem 1.5rem 0 0;
@@ -144,6 +220,7 @@ body {
   font-family: "Roboto", sans-serif;
   color: black;
   display: block;
+  position: relative;
 }
 .main02 .two .row .article-wrap .goToGitHub:hover {
   box-shadow: 0 0 1rem #ccc;
@@ -159,14 +236,25 @@ body {
   font-size: 3.6rem;
   font-family: "Bebas Neue", cursive;
   margin-bottom: 3.2rem;
+  text-align: center;
 }
 .main02 .three .containerSkill {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
 }
+@media (max-width: 768px) {
+  .main02 .three .containerSkill {
+    justify-content: center;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1247px) and (max-width: 768px) {
+  .main02 .three .containerSkill {
+    justify-content: center;
+  }
+}
 .main02 .three .containerSkill .containerArticle {
-  width: 37.8rem;
+  width: 37.5rem;
   border-radius: 1.5rem;
   box-shadow: 0 0 1rem #ccc;
   padding: 1.2rem;
@@ -174,6 +262,11 @@ body {
   margin: 0 0 2rem 2rem;
   display: flex;
   align-items: center;
+}
+@media (max-width: 768px) {
+  .main02 .three .containerSkill .containerArticle {
+    margin: 0 auto 1.8rem;
+  }
 }
 .main02 .three .containerSkill .containerArticle p {
   width: 97%;
@@ -192,6 +285,11 @@ body {
 .footer .icons-header-container {
   display: flex;
   justify-content: flex-end;
+}
+@media (max-width: 768px) {
+  .footer .icons-header-container {
+    justify-content: center;
+  }
 }
 .footer .icons-header-container a {
   width: 4.266rem;
