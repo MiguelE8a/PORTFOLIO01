@@ -208,13 +208,13 @@ body {
   line-height: 1.5rem;
   color: #343434;
 }
-.main02 .two .row .article-wrap .conatinet-Butttons-TrabajosRecientes {
+.main02 .two .row .article-wrap .container-Buttons-TrabajosRecientes {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.main02 .two .row .article-wrap .conatinet-Butttons-TrabajosRecientes .goToGitHub {
+.main02 .two .row .article-wrap .container-Buttons-TrabajosRecientes .goToGitHub {
   width: 10rem;
   font-size: 1.6rem;
   margin: 0 0.5rem;
@@ -228,7 +228,7 @@ body {
   display: block;
   position: relative;
 }
-.main02 .two .row .article-wrap .conatinet-Butttons-TrabajosRecientes .goToGitHub:hover {
+.main02 .two .row .article-wrap .container-Buttons-TrabajosRecientes .goToGitHub:hover {
   box-shadow: 0 0 1rem #ccc;
   font-weight: 600;
   transition: all 0.1s;
