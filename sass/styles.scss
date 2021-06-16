@@ -4,6 +4,7 @@ $font02:'Roboto', sans-serif;
 $ipadPro: 1024px;
 $ipad: 768px;
 $desktop: 1247px;
+$background-color-gradient-fondo : linear-gradient(0deg, rgba(204,204,204,1) 0%, rgba(255,255,255,1) 100%);
 @mixin text-align-center-ipad(){
   text-align: center;
 }
@@ -128,9 +129,11 @@ body{
 .main02{
   width: 70%;
   padding: 9.6rem 3.8rem 3.8rem;
-  background: linear-gradient(0deg, rgba(204,204,204,1) 0%, rgba(255,255,255,1) 100%);
+  background: $background-color-gradient-fondo;
   overflow-x: hidden;
   overflow-y: visible;
+
+  
   @media (max-width: $ipad){
     width: 100vw;
     height: 100%;
@@ -327,4 +330,15 @@ body{
   .fill{
     color: rgba(255, 255, 255, 0.687);
   }
+}
+
+.main02::-webkit-scrollbar{
+  width: 15px;
+  background:$background-color-gradient-fondo;
+}
+.main02::-webkit-scrollbar-thumb{
+  width: 5px;
+  background:rgb(113, 113, 113);
+  border-radius: 10px;
+  border: 3px solid #ccc ;
 }
