@@ -1,0 +1,13 @@
+{
+    "name":"#PorafoliosMiguelE8A",
+    "short_name":"#MiguelE8A",
+    "description":"bienvenidos a mi portafolios, donde mostrare mis mejores trabajos",
+    "background_color":"#ccc",
+    "theme_color":"#ccc",
+    "orientation":"portrail",
+    "display":"standalone",
+    "start_url":"./utm_source=web_app_manifest",
+    "scope":"./",
+    "lang":"es-MX",
+    "icons":[]
+}
